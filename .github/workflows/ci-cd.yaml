@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths-ignore:
       - 'kubernetes/deployment.yaml'  # Ignore changes to this file to prevent loops
+      - '.github/workflows/ci-cd.yaml'
   pull_request:
     branches: [ main ]
 
